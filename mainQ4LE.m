@@ -4,7 +4,7 @@ clc;
 addpath('./bin/');
 me=meshQ4Rect([0 1],[0 1],15,15);
 % Q4Plotter(me,me.nodes,1);
-gDat=gaussData(3);
+gDat=gaussData(2);
 mat.nu   = 0.3;
 mat.E    = 200e5;
 mat.D = (mat.E/((1+mat.nu)*(1-2*mat.nu)))*[1-mat.nu mat.nu 0 ; mat.nu 1-mat.nu 0; 0 0 (1-2*mat.nu)/2];
