@@ -2,7 +2,7 @@ close all;
 clear all;
 clc;
 addpath('./bin/');
-me=meshQ4Rect([0 1],[0 1],5,5);
+me=meshQ4Rect([0 1],[0 1],15,15);
 % Q4Plotter(me,me.nodes,1);
 gDat=gaussData(3);
 mat.nu   = 0.3;
